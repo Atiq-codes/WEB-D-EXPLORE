@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+    margin: 0;
+    background-image: url('bg.jpg'); /* Add your background image here */
+    background-size: cover; /* Ensures the background covers the whole page */
+    background-position: center; /* Centers the background image */
+}
+
+.bulb-container {
+    position: relative;
+}
+
+.bulb {
+    width: 500px;
+    height: auto;
+    transition: opacity 0.3s ease;
+}
+
+.bulb:hover {
+    content: url('Bulb_on.jpg'); /* Path to the glowing bulb image on your local machine */
+}

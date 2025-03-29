@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bulb Hover Effect</title>
+  <style>
+    .bulb {
+      width: 200px;
+      height: auto;
+      background-image: url('bulb-off.png'); /* Image of the bulb when it's off */
+      background-size: contain;
+      background-repeat: no-repeat;
+      transition: background-image 0.3s ease;
+    }
+
+    .bulb:hover {
+      background-image: hsla(0, 100%, 50%, 0.048); /* Image of the bulb when it's on */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="bulb"></div>
+
+</body>
+</html>
